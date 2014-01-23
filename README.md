@@ -182,6 +182,5 @@ The module has been tested on:
 
 * RedHat Enterprise Linux 6
 * CentOS 6
-* Ubuntu 12.04
 
 Testing on other platforms has been light and cannot be guaranteed.

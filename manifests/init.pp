@@ -147,13 +147,6 @@ class php (
       owner   => 'root',
       group   => 'root',
       mode    => '644',
-      notify  => Service [$service_name], # Will restart service after change
-  }
-
-  service { $service_name:
-    ensure     => running,
-    enable     => true,
-    hasstatus  => true,
-    hasrestart => true,
+      notify  => Service [httpd], # Will restart service after change
   }
 }
